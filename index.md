@@ -1,7 +1,7 @@
 # NeoPixel Ring Lamp
 <!-- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
-In this project, I utilized an Arduino Uno to light up four NeoPixel ring lamps with special animations. (Will continue with further milestones)
+In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights with special animations. (Will continue with further milestones)
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -41,10 +41,16 @@ For your second milestone, explain what you've worked on since your previous mil
 - What your plan is to complete your project -->
 
 Technical Progress
-- The goal of the first milestone was to connect the first ring to the raspberry pi pico in order to check for functionality. This was done by using the connectors already soldered onto the ring. By observing the circuit diagram provided which specified which
+- The goal of the first milestone was to connect the first ring to the raspberry pi pico in order to check for functionality. This was done by using the connectors already soldered onto the ring. By observing the circuit diagram provided which specified which ports the connectors should be inserted into.
 
 Challenges
-- One challenge faced during the coding was being mindful of which wire connects to which port on the Raspberry Pi. The NeoPixel ring lamp came with 4 presoldered joints, each labeled differently and two of them (5V and GND) having two different wires coming out from same the joint. It was important to discern which wire was the data in and which one was the data out. 
+- One challenge faced during the coding was being mindful of which wire connects to which port on the Raspberry Pi. The NeoPixel ring lamp came with 4 presoldered joints, each labeled differently and two of them (5V and GND) having two different wires coming out from same the joint. It was important to discern which wire was the data in and which one was the data out and making sure that it is the data in which goes into the correct port in the raspberry pi pico.
+
+Future Milestones
+- Looking forward, some challenges and changes to address are:
+  ```
+  1. Switch to an Arduino Uno due to trouble with the coding process
+  2. Connect the other ring lights to the 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
