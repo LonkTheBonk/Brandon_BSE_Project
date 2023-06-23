@@ -58,7 +58,8 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 
 
-```# # SPDX-FileCopyrightText: 2021 Ruiz Brothers for Adafruit Industries
+```
+# # SPDX-FileCopyrightText: 2021 Ruiz Brothers for Adafruit Industries
 # # SPDX-License-Identifier: MIT
 
 import board
