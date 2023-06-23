@@ -122,13 +122,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|:--:|
 | NeoPixel 1/4 60 Ring - 5050 RGB LED | 4 | The main ring light w/ 60 LEDs | $39.80 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.adafruit.com/product/1768) </a> |
 |:--:|:--:|:--:|:--:|:--:|
-| NeoPixel Ring - 24 x 5050 RGB LED | 2 | The medium ring lights w/ 24 LEDs  | $33.90 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| NeoPixel Ring - 24 x 5050 RGB LED | 2 | The medium ring lights w/ 24 LEDs  | $33.90 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link]( </a> |
 |:--:|:--:|:--:|:--:|:--:|
 | NeoPixel Ring - 16 x 5050 RGB LED | 1 | The small ring light w/ 16 LEDs | $9.95 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|:--:|
 | 1.25 mm Pitch 3-pin Cable Matching Pair | 10 | Used to daisy chain the ring lights | $8.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|:--:|
-| Plusive Soldering Kit | 1 | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Plusivo Soldering Kit | 1 | Used to solder the joints together | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
