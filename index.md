@@ -54,6 +54,7 @@ Future Milestones
   1. Switch to an Arduino Uno due to trouble with the coding process.
   2. Daisy chain the other ring lights off of the main light.
   3. Solder the wires to the ports to ensure a stable connection
+```
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
