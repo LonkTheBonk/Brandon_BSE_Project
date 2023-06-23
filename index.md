@@ -44,7 +44,7 @@ Technical Progress
 - The goal of the first milestone was to connect the first ring to the raspberry pi pico in order to check for functionality. This was done by using the connectors already soldered onto the ring. By observing the circuit diagram provided which specified which
 
 Challenges
-- One challenge faced during the coding was being mindful of which wire connects to which port on the Raspberry Pi. The NeoPixel ring light 
+- One challenge faced during the coding was being mindful of which wire connects to which port on the Raspberry Pi. The NeoPixel ring lamp came with 4 presoldered joints, each labeled differently and two of them (5V and GND) having two different wires coming out from same the joint. It was important to discern which wire was the data in and which one was the data out. 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
