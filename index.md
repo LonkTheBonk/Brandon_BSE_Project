@@ -43,14 +43,17 @@ For your second milestone, explain what you've worked on since your previous mil
 Technical Progress
 - The goal of the first milestone was to connect the first ring to the raspberry pi pico in order to check for functionality. This was done by using the connectors already soldered onto the ring. By observing the circuit diagram provided which specified which ports the connectors should be inserted into.
 
+![Milestone1](Milestone1.jpg)
+
 Challenges
 - One challenge faced during the coding was being mindful of which wire connects to which port on the Raspberry Pi. The NeoPixel ring lamp came with 4 presoldered joints, each labeled differently and two of them (5V and GND) having two different wires coming out from same the joint. It was important to discern which wire was the data in and which one was the data out and making sure that it is the data in which goes into the correct port in the raspberry pi pico.
 
 Future Milestones
 - Looking forward, some challenges and changes to address are:
   ```
-  1. Switch to an Arduino Uno due to trouble with the coding process
-  2. Connect the other ring lights to the 
+  1. Switch to an Arduino Uno due to trouble with the coding process.
+  2. Daisy chain the other ring lights off of the main light.
+  3. Solder the wires to the ports to ensure a stable connection
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
