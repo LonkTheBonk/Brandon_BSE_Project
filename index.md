@@ -1,5 +1,5 @@
 # NeoPixel Ring Lamp
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+<!-- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
 In this project, I utilized an Arduino Uno to light up four NeoPixel ring lamps with special animations. (Will continue with further milestones)
 
@@ -11,7 +11,7 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lamps 
 
 ![Headstone Image](logo.svg)
   
-# Final Milestone
+<!-- # Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -31,18 +31,19 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 # First Milestone : Functionality in the first ring (using Raspberry Pi Pico)
-#For your first milestone, describe what your project is and how you plan to build it. You can include:
-#- An explanation about the different components of your project and how they will all integrate together
-#- Technical progress you've made so far
-#- Challenges you're facing and solving in your future milestones
-#- What your plan is to complete your project
+<!-- For your first milestone, describe what your project is and how you plan to build it. You can include:
+- An explanation about the different components of your project and how they will all integrate together
+- Technical progress you've made so far
+- Challenges you're facing and solving in your future milestones
+- What your plan is to complete your project -->
 
-The goal of the first milestone was to connect the first ring to the raspberry pi pico in order to check for functionality. This was done by using the connectors already soldered onto the ring.
+Technical Progress
+- The goal of the first milestone was to connect the first ring to the raspberry pi pico in order to check for functionality. This was done by using the connectors already soldered onto the ring. By observing 
 
-#**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -50,19 +51,48 @@ The goal of the first milestone was to connect the first ring to the raspberry p
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+<!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
 
-void loop() {
-  // put your main code here, to run repeatedly:
 
-}
+```# # SPDX-FileCopyrightText: 2021 Ruiz Brothers for Adafruit Industries
+# # SPDX-License-Identifier: MIT
+
+import board
+import neopixel
+from adafruit_led_animation.animation.pulse import Pulse
+from adafruit_led_animation.animation.rainbow import Rainbow
+from adafruit_led_animation.animation.rainbowsparkle import RainbowSparkle
+from adafruit_led_animation.animation.rainbowcomet import RainbowComet
+from adafruit_led_animation.sequence import AnimationSequence
+from adafruit_led_animation.color import PURPLE
+
+# Update this to match the number of NeoPixel LEDs connected to your board.
+num_pixels_large = 84
+ 
+large_pixels = neopixel.NeoPixel(board.GP0, num_pixels_large, auto_write=True)
+large_pixels.brightness = 0.2
+
+##############################################   Animations   #########################################################
+ 
+rainbow_large = Rainbow(large_pixels, speed=0.01, period=1)
+rainbow_sparkle_large  = RainbowSparkle(large_pixels, speed=0.05, num_sparkles=15)
+rainbow_comet_large  = RainbowComet(large_pixels, speed=.01, tail_length=20, bounce=True)
+pulse_large  = Pulse(large_pixels, speed=.05, color=PURPLE, period=3)
+
+ 
+##############################################   Sequencing   #########################################################
+animations = AnimationSequence(
+     rainbow_large,
+
+     advance_interval = 5,
+     auto_clear=True,
+     random_order=False
+)
+
+while True:
+     animations.animate()
+
 ```
 
 # Bill of Materials
