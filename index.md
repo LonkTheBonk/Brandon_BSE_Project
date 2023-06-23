@@ -116,18 +116,20 @@ while True:
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| Raspberry Pi Pico RP2040 | The main computing board | $4.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.adafruit.com/product/4864) </a> |
-|:--:|:--:|:--:|:--:|
-| NeoPixel 1/4 60 Ring - 5050 RGB LED | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.adafruit.com/product/1768) </a> |
-|:--:|:--:|:--:|:--:|
-| NeoPixel Ring - 24 x 5050 RGB LED | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| NeoPixel Ring - 16 x 5050 RGB LED | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
+| **Part** | **Quantity** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|:--:|
+| Raspberry Pi Pico RP2040 | 1 | The main computing board | $4.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.adafruit.com/product/4864) </a> |
+|:--:|:--:|:--:|:--:|:--:|
+| NeoPixel 1/4 60 Ring - 5050 RGB LED | 4 | The main ring light w/ 60 LEDs | $39.80 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.adafruit.com/product/1768) </a> |
+|:--:|:--:|:--:|:--:|:--:|
+| NeoPixel Ring - 24 x 5050 RGB LED | 2 | The medium ring lights w/ 24 LEDs  | $33.90 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|:--:|
+| NeoPixel Ring - 16 x 5050 RGB LED | 1 | The small ring light w/ 16 LEDs | $9.95 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|:--:|
+| 1.25 mm Pitch 3-pin Cable Matching Pair | 10 | Used to daisy chain the ring lights | $8.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|:--:|
+| Plusive Soldering Kit | 1 | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
