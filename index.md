@@ -120,7 +120,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi Pico RP2040 | The main computing board | $4.00 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.adafruit.com/product/4864) </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| NeoPixel 1/4 60 Ring - 5050 RGB LED | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.adafruit.com/product/1768) </a> |
+|:--:|:--:|:--:|:--:|
+| NeoPixel Ring - 24 x 5050 RGB LED | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| NeoPixel Ring - 16 x 5050 RGB LED | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
