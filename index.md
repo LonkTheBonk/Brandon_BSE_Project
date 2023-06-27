@@ -20,18 +20,24 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> --->
 
-# Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+# Second Milestone : Completed daisy chain between all 4 rings (using Arduino UNO)
+<!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+Technical Progress
+- The second milestone was to connect all four of the NeoPixel rings together in a daisy chain and get them to be operational using an Arduino UNO. This was done by soldering the proper wires to the correct ports, keeping in mind the data in and out ports especially, and re - coding the processes in the Arduino.
+
+  Challenges
+  - A challenge faced for the second milestone was the fact that 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone : Functionality in the first ring (using Raspberry Pi Pico)
 <!-- For your first milestone, describe what your project is and how you plan to build it. You can include:
@@ -52,8 +58,8 @@ Future Milestones
 - Looking forward, some challenges and changes to address are:
   
   ```
-  1. Switch to an Arduino Uno due to trouble with the coding process.
-  2. Daisy chain the other ring lights off of the main light.
+  1. Switch to an Arduino Uno due to trouble with the coding process
+  2. Daisy chain the other ring lights off of the main light
   3. Solder the wires to the ports to ensure a stable connection
   ```
 
