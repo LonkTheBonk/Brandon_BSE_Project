@@ -33,9 +33,6 @@ Key Learning Points
 
 ![Milestone3](Milestone3.jpg)
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-
 # Second Milestone : Completed daisy chain between all 4 rings (using Arduino UNO)
 <!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -59,7 +56,7 @@ Future Milestones
 - Looking forward, some challenges and changes to address are:
   
   ```
-  1. Create a lamp structure in orde which hold the ring lights
+  1. Create a lamp structure in order to hold the ring lights
   2. Implement more patterns for the ring lamp
   ```
   
