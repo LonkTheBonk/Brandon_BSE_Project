@@ -1,4 +1,4 @@
-# NeoPixel Ring Lamp
+# NeoPixel Ring Lamp with Arduino UNO
 <!-- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
 In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights with special animations. There is one large ring, two medium sized rings, and a final small ring which all get daisy chained to one another. (Will continue with further milestones)
@@ -21,7 +21,7 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**--->
 
 Technical Progress
-- The final milestone was 
+- The final milestone was a 3D printed structure to create an actual lamp. This required use of AutoCAD which is a CAD software.  
 
 Challenges and Triumphs
 -
@@ -99,11 +99,195 @@ Future Milestones
 
 # Schematics 
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
+This is the circuit diagram for the daisy chaining process.
 
 ![Circuit Diagram](CircuitDiagram.jpg)
 
 # Code
 <!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
+
+This is the code for the Arduino UNO
+
+```
+#include <Adafruit_NeoPixel.h>
+ 
+#define PIN 6
+#define BUTTON_PIN 8 // Change this to the pin number where you connect the button
+
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(124, PIN, NEO_GRB + NEO_KHZ800);
+int patternIndex = 0;
+
+int buttonState = HIGH;        // current state of the button
+int lastButtonState = HIGH;    // previous state of the button
+
+void setup() {
+  strip.begin();
+  strip.setBrightness(30);
+  strip.show();
+
+  pinMode(BUTTON_PIN, INPUT_PULLUP);  // Configure the button pin as INPUT with internal pull-up resistor
+}
+
+void loop() {
+  // Read the state of the button
+  buttonState = digitalRead(BUTTON_PIN);
+
+  // Check if the button is pressed (LOW level)
+  if (buttonState == LOW && lastButtonState == HIGH) {
+    // Button is pressed, trigger the next pattern
+    patternIndex++;
+    changePattern();
+    delay(200);  // Debounce delay to avoid multiple triggers from a single press
+  }
+
+  // Save the current button state for the next iteration
+  lastButtonState = buttonState;
+}
+
+void changePattern() {
+  switch (patternIndex) {
+    case 0:
+      colorWipe(strip.Color(255, 0, 0), 50); // Red
+      break;
+    case 1:
+      colorWipe(strip.Color(0, 255, 0), 50); // Green
+      break;
+    case 2:
+      colorWipe(strip.Color(0, 0, 255), 50); // Blue
+      break;
+    case 3:
+      rainbow(20); // Adjust the wait time for slower/faster animation
+      break;
+    case 4:
+      rainbowCycle(20); // Adjust the wait time for slower/faster animation
+      break;
+    case 5:
+      theaterChase(strip.Color(127, 127, 127), 50); // White theater chase
+      break;
+    case 6:
+      blinkAll(strip.Color(255, 255, 0), 500); // Yellow blink
+      break;
+    case 7:
+      fibonacciPattern(200);
+      break;
+    // Add more cases for additional patterns
+      
+    default:
+      patternIndex = 0; // Reset to the first pattern
+      break;
+  }
+  
+  patternIndex++; // Move to the next pattern
+  
+  delay(1000); // Delay between pattern changes
+}
+ 
+
+// Fill the dots one after the other with a color
+void colorWipe(uint32_t c, uint8_t wait) {
+  for (uint32_t i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, c);
+    strip.show();
+    delay(wait);
+  }
+}
+ 
+void rainbow(uint8_t wait) {
+  uint32_t i, j;
+ 
+  for (j = 0; j < 256; j++) {
+    for (i = 0; i < strip.numPixels(); i++) {
+      strip.setPixelColor(i, Wheel((i + j) & 255));
+    }
+    strip.show();
+    delay(wait);
+  }
+}
+ 
+void rainbowCycle(uint8_t wait) {
+  uint32_t i, j;
+ 
+  for (j = 0; j < 256 * 5; j++) { // 5 cycles of all colors on wheel
+    for (i = 0; i < strip.numPixels(); i++) {
+      strip.setPixelColor(i, Wheel(((i * 256 / strip.numPixels()) + j) & 255));
+    }
+    strip.show();
+    delay(wait);
+  }
+}
+
+void theaterChase(uint32_t c, uint8_t wait) {
+  for (int j = 0; j < 100; j++) {  // Repeat 10 times for theater effect
+    for (int q = 0; q < 3; q++) {
+      for (uint16_t i = 0; i < strip.numPixels(); i = i + 3) {
+        strip.setPixelColor(i + q, c);    // Turn every third pixel on
+      }
+      strip.show();
+     
+      delay(wait);
+     
+      for (uint16_t i = 0; i < strip.numPixels(); i = i + 3) {
+        strip.setPixelColor(i + q, 0);    // Turn every third pixel off
+      }
+    }
+  }
+  strip.show(); // Turn off all pixels at the end
+}
+
+void blinkAll(uint32_t c, uint16_t duration) {
+  for (int i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, c);    // Set all pixels to the specified color
+  }
+  strip.show();
+  delay(duration);
+  
+  for (int i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, 0);    // Turn off all pixels
+  }
+  strip.show();
+  delay(duration);
+}
+
+void fibonacciPattern(uint8_t wait) {
+  // Define the initial Fibonacci sequence
+  uint8_t fibonacciSequence[] = {1, 1, 2, 3, 5, 8, 13, 21, 34};
+  uint8_t sequenceSize = sizeof(fibonacciSequence);
+  
+  // Iterate through the Fibonacci sequence
+  for (uint8_t i = 0; i < sequenceSize; i++) {
+    uint8_t numPixels = fibonacciSequence[i];
+    
+    // Set the specified number of pixels to a color
+    for (uint8_t j = 0; j < numPixels; j++) {
+      strip.setPixelColor(j, strip.Color(255, 0, 0));  // Set the color (here, red)
+    }
+    strip.show();  // Show the updated pixels
+    
+    delay(wait);
+    
+    // Turn off all pixels
+    for (uint8_t j = 0; j < strip.numPixels(); j++) {
+      strip.setPixelColor(j, strip.Color(0, 0, 0));  // Turn off the pixel
+    }
+    strip.show();  // Show the updated pixels
+    
+    delay(wait);
+  }
+}
+
+uint32_t Wheel(byte WheelPos) {
+  if (WheelPos < 85) {
+    return strip.Color(WheelPos * 3, 255 - WheelPos * 3, 0);
+  } else if (WheelPos < 170) {
+    WheelPos -= 85;
+    return strip.Color(255 - WheelPos * 3, 0, WheelPos * 3);
+  } else {
+    WheelPos -= 170;
+    return strip.Color(0, WheelPos * 3, 255 - WheelPos * 3);
+  }
+}
+
+```
 
 This is the code for the Raspberry Pi Pico in the first milestone.
 
