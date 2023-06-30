@@ -26,7 +26,7 @@ Technical Progress
 - The final milestone was a 3D printed structure to create an actual lamp. This required use of AutoCAD which is a CAD software.  
 
 Challenges
-- A challenge faced was having to learn how to use AutoCAD and create a fesiable structure in just 2 weeks
+- A challenge faced was having to learn how to use AutoCAD and create a feasible structure in just 2 weeks
 - Another challenge was the fact that the initial design for the ring structure was too small for the actual rings. This required more prototyping and testing for the ring design
 - Another challenge was the size of the 3D printer. It was too small to actually print the large structures. In order to work around this, the CAD structure was broken down into 3 smaller chunks which could be printed and then glued together
 
@@ -359,5 +359,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Plusivo Soldering Kit | 1 | Used to solder the joints together | $19.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=sr_1_3?hvadid=334681349713&hvdev=c&hvlocphy=9112892&hvnetw=g&hvqmt=e&hvrand=14699565686943286206&hvtargid=kwd-645860950266&hydadcr=24633_10399729&keywords=plusivo+soldering+kit&qid=1687534558&sr=8-3) </a> |
 |:--:|:--:|:--:|:--:|:--:|
 | Arduino Elegoo UNO R3 | 1 | The main computing board | $19.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=asc_df_B01EWOE0UU/?tag=hyprod-20&linkCode=df0&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=17722264260944855921&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9112892&hvtargid=pla-455309014075&psc=1&tag=&ref=&adgrpid=67183599252&hvpone=&hvptwo=&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=17722264260944855921&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9112892&hvtargid=pla-455309014075) </a> |
+|:--:|:--:|:--:|:--:|:--:|
+| Elegoo Breadboard | 1 | Holds the button | $4.33 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=asc_df_B01EWOE0UU/?tag=hyprod-20&linkCode=df0&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=17722264260944855921&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9112892&hvtargid=pla-455309014075&psc=1&tag=&ref=&adgrpid=67183599252&hvpone=&hvptwo=&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=17722264260944855921&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9112892&hvtargid=pla-455309014075](https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G/ref=sr_1_14?crid=3ARCT2BNQPOCF&keywords=smraza+breadboards&qid=1688138955&s=industrial&sprefix=smraza+breadboards%2Cindustrial%2C162&sr=1-14)https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G/ref=sr_1_14?crid=3ARCT2BNQPOCF&keywords=smraza+breadboards&qid=1688138955&s=industrial&sprefix=smraza+breadboards%2Cindustrial%2C162&sr=1-14) </a> |
 |:--:|:--:|:--:|:--:|:--:|
 
