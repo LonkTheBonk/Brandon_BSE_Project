@@ -344,4 +344,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|:--:|
 | Plusivo Soldering Kit | 1 | Used to solder the joints together | $19.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=sr_1_3?hvadid=334681349713&hvdev=c&hvlocphy=9112892&hvnetw=g&hvqmt=e&hvrand=14699565686943286206&hvtargid=kwd-645860950266&hydadcr=24633_10399729&keywords=plusivo+soldering+kit&qid=1687534558&sr=8-3) </a> |
 |:--:|:--:|:--:|:--:|:--:|
+| Arduino Elegoo UNO R3 | 1 | The main computing board | $19.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> [Link](https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=asc_df_B01EWOE0UU/?tag=hyprod-20&linkCode=df0&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=17722264260944855921&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9112892&hvtargid=pla-455309014075&psc=1&tag=&ref=&adgrpid=67183599252&hvpone=&hvptwo=&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=17722264260944855921&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9112892&hvtargid=pla-455309014075) </a> |
+|:--:|:--:|:--:|:--:|:--:|
 
