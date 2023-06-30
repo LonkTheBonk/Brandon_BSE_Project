@@ -25,10 +25,12 @@ Technical Progress
 
 Challenges
 - A challenge faced was having to learn how to use AutoCAD and create a fesiable structure in just 2 weeks
+- Another challenge was the fact that the initial design for the ring structure was too small for the actual rings. This required more prototyping and testing for the ring design
+- Another challenge was the size of the 3D printer. It was too small to actually print the large structures. In order to work around this, the CAD structure was broken down into 3 smaller chunks which could be printed and then glued together
 
 Key Learning Points
--
-
+- CADing is a skill that is essential to engineering and robotics
+- 
 Future Goals
 -
 
