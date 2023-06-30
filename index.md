@@ -23,6 +23,15 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 Technical Progress
 - The final milestone was 
 
+Challenges and Triumphs
+-
+
+Key Learning Points
+-
+
+Future Goals
+-
+
 
 ![Milestone3]()
 
@@ -41,7 +50,7 @@ Challenges
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
 Technical Progress
-- The second milestone was to connect all four of the NeoPixel rings together in a daisy chain and get them to be operational using an Arduino UNO. This was done by soldering the proper wires to the correct ports, keeping in mind the data in and out ports especially, and re - coding the processes in the Arduino.
+- The second milestone was to connect all four of the NeoPixel rings together in a daisy chain and get them to be operational using an Arduino UNO. This was done by soldering the proper wires to the correct ports, keeping in mind the data in and out ports especially, and re-coding the processes in the Arduino.
 - Another aspect was the addition of a seperate button which would be used to manually switch the pattern on the ring.
 
 ![Milestone2]()
