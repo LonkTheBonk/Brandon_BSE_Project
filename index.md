@@ -63,7 +63,7 @@ Future Milestones
   2. Implement more patterns for the ring lamp
   ```
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s-5u5mQ2Mhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone : Functionality in the first ring (using Raspberry Pi Pico)
 <!-- For your first milestone, describe what your project is and how you plan to build it. You can include:
