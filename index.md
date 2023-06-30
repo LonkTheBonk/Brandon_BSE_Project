@@ -9,7 +9,7 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 
 <!-- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
-![Headstone Image](logo.svg)
+![Headstone Image](NeoPixelRingLamp.jpg)
   
 # Final Milestone : 3D Printed Case
 <!-- For your final milestone, explain the outcome of your project. Key details to include are:
@@ -31,7 +31,7 @@ Challenges
 Key Learning Points
 - CADing : Knowing how to create a 3D model of a project and making it practical for actual use
 
-![Milestone3](Milestone 3.jpg)
+![Milestone3](Milestone3.jpg)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
@@ -49,7 +49,7 @@ Technical Progress
 - The second milestone was to connect all four of the NeoPixel rings together in a daisy chain and get them to be operational using an Arduino UNO. This was done by soldering the proper wires to the correct ports, keeping in mind the data in and out ports especially, and re-coding the processes in the Arduino.
 - Another aspect was the addition of a seperate button which would be used to manually switch the pattern on the ring.
 
-![Milestone2]()
+![Milestone2](Milestone2.jpg)
 
 Challenges
   - A challenge faced for the second milestone was the change from a Raspberry Pi Pico to an Arduino UNO. This was challenging as it required me to redo all the previous code and practically start from scratch
