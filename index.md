@@ -29,8 +29,8 @@ Challenges
 - Another challenge was the size of the 3D printer. It was too small to actually print the large structures. In order to work around this, the CAD structure was broken down into 3 smaller chunks which could be printed and then glued together
 
 Key Learning Points
-- CADing is a skill that is essential to engineering and robotics
-- 
+- CADing : Knowing how to create a 3D model of a project and making it practical for actual use
+  
 Future Goals
 -
 
