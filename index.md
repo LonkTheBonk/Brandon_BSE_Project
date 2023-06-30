@@ -11,7 +11,7 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 
 ![Headstone Image](logo.svg)
   
-# Final Milestone
+# Final Milestone : 3D Printed Case
 <!-- For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -24,19 +24,10 @@ Technical Progress
 - The final milestone was 
 
 
-![Milestone2]()
+![Milestone3]()
 
 Challenges
-  - A challenge faced for the second milestone was the change from a Raspberry Pi Pico to an Arduino UNO. This was challenging as it required me to redo all the previous code and practically start from scratch
-  - When daisy chaining the rings to one another, it is important to note which pins are inserted into which ports
-
-Future Milestones
-- Looking forward, some challenges and changes to address are:
-  
-  ```
-  1. Create a lamp structure in orde which hold the ring lights
-  2. Implement more patterns for the ring lamp
-  ```
+  - 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
