@@ -23,8 +23,8 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 Technical Progress
 - The final milestone was a 3D printed structure to create an actual lamp. This required use of AutoCAD which is a CAD software.  
 
-Challenges and Triumphs
--
+Challenges
+- A challenge faced was having to learn how to use AutoCAD and create a fesiable structure in just 2 weeks
 
 Key Learning Points
 -
@@ -35,8 +35,6 @@ Future Goals
 
 ![Milestone3]()
 
-Challenges
-  - 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
