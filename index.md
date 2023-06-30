@@ -11,16 +11,34 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 
 ![Headstone Image](logo.svg)
   
-<!-- # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
+# Final Milestone
+<!-- For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**--->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> --->
+Technical Progress
+- The final milestone was 
+
+
+![Milestone2]()
+
+Challenges
+  - A challenge faced for the second milestone was the change from a Raspberry Pi Pico to an Arduino UNO. This was challenging as it required me to redo all the previous code and practically start from scratch
+  - When daisy chaining the rings to one another, it is important to note which pins are inserted into which ports
+
+Future Milestones
+- Looking forward, some challenges and changes to address are:
+  
+  ```
+  1. Create a lamp structure in orde which hold the ring lights
+  2. Implement more patterns for the ring lamp
+  ```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
 # Second Milestone : Completed daisy chain between all 4 rings (using Arduino UNO)
 <!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -33,10 +51,22 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 Technical Progress
 - The second milestone was to connect all four of the NeoPixel rings together in a daisy chain and get them to be operational using an Arduino UNO. This was done by soldering the proper wires to the correct ports, keeping in mind the data in and out ports especially, and re - coding the processes in the Arduino.
+- Another aspect was the addition of a seperate button which would be used to manually switch the pattern on the ring.
 
-  Challenges
-  - A challenge faced for the second milestone was the fact that 
+![Milestone2]()
 
+Challenges
+  - A challenge faced for the second milestone was the change from a Raspberry Pi Pico to an Arduino UNO. This was challenging as it required me to redo all the previous code and practically start from scratch
+  - When daisy chaining the rings to one another, it is important to note which pins are inserted into which ports
+
+Future Milestones
+- Looking forward, some challenges and changes to address are:
+  
+  ```
+  1. Create a lamp structure in orde which hold the ring lights
+  2. Implement more patterns for the ring lamp
+  ```
+  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone : Functionality in the first ring (using Raspberry Pi Pico)
