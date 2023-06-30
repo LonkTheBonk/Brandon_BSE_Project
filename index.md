@@ -25,6 +25,11 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 Technical Progress
 - The final milestone was a 3D printed structure to create an actual lamp. This required use of AutoCAD which is a CAD software.  
 
+<div align="center">
+  <img src="Milestone3.jpg" width="560">
+</div>
+
+
 Challenges
 - A challenge faced was having to learn how to use AutoCAD and create a feasible structure in just 2 weeks
 - Another challenge was the fact that the initial design for the ring structure was too small for the actual rings. This required more prototyping and testing for the ring design
@@ -34,7 +39,7 @@ Key Learning Points
 - CADing : Knowing how to create a 3D model of a project and making it practical for actual use
 
 <div align="center">
-  <img src="Milestone3.jpg" width="560">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/zqxTwvnR6Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 # Second Milestone : Completed daisy chain between all 4 rings (using Arduino UNO)
