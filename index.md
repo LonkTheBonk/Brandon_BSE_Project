@@ -9,7 +9,9 @@ In this project, I utilized an Arduino Uno to light up four NeoPixel ring lights
 
 <!-- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
-![Headstone Image](NeoPixelRingLamp.jpg)
+<div align="center">
+  <img src="NeoPixelRingLamp.jpg" width="560">
+</div>
   
 # Final Milestone : 3D Printed Case
 <!-- For your final milestone, explain the outcome of your project. Key details to include are:
@@ -31,7 +33,9 @@ Challenges
 Key Learning Points
 - CADing : Knowing how to create a 3D model of a project and making it practical for actual use
 
-![Milestone3](Milestone3.jpg)
+<div align="center">
+  <img src="Milestone3.jpg" width="560">
+</div>
 
 # Second Milestone : Completed daisy chain between all 4 rings (using Arduino UNO)
 <!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -46,7 +50,9 @@ Technical Progress
 - The second milestone was to connect all four of the NeoPixel rings together in a daisy chain and get them to be operational using an Arduino UNO. This was done by soldering the proper wires to the correct ports, keeping in mind the data in and out ports especially, and re-coding the processes in the Arduino.
 - Another aspect was the addition of a seperate button which would be used to manually switch the pattern on the ring.
 
-![Milestone2](Milestone2.jpg)
+<div align="center">
+  <img src="Milestone2.jpg" width="560">
+</div>
 
 Challenges
   - A challenge faced for the second milestone was the change from a Raspberry Pi Pico to an Arduino UNO. This was challenging as it required me to redo all the previous code and practically start from scratch
@@ -72,7 +78,9 @@ Future Milestones
 Technical Progress
 - The goal of the first milestone was to connect the first ring to the raspberry pi pico in order to check for functionality. This was done by using the connectors already soldered onto the ring. By observing the circuit diagram provided which specified which ports the connectors should be inserted into.
 
-![Milestone1](Milestone1.jpg)
+<div align="center">
+  <img src="Milestone1.jpg" width="560">
+</div>
 
 Challenges
 - One challenge faced during the coding was being mindful of which wire connects to which port on the Raspberry Pi. The NeoPixel ring lamp came with 4 presoldered joints, each labeled differently and two of them (5V and GND) having two different wires coming out from same the joint. It was important to discern which wire was the data in and which one was the data out and making sure that it is the data in which goes into the correct port in the raspberry pi pico.
@@ -94,7 +102,10 @@ Future Milestones
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 This is the circuit diagram for the daisy chaining process.
 
-![Circuit Diagram](CircuitDiagram.jpg)
+
+<div align="center">
+  <img src="CircuitDiagram.jpg" width="560">
+</div>
 
 # Code
 <!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
