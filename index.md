@@ -31,7 +31,7 @@ Challenges
 Key Learning Points
 - CADing : Knowing how to create a 3D model of a project and making it practical for actual use
 
-![Milestone3]()
+![Milestone3](Milestone 3.jpg)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
